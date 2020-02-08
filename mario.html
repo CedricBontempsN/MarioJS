@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, user-scalable=no">
+        <title>Mario vs Bowser</title>
+        <link rel="stylesheet" href="mario.css">
+       <script type="text/javascript" src="mario.js"></script>
+        <script type="text/javascript" src="ennemi.js"></script>
+        <!--<script type="text/javascript" src="tile.js"></script>-->
+
+        <!--<script type="text/javascript" src="pageAccueil.js"></script> -->  
+    </head>
+     
+    <body>
+        <h1>MARIO VS ZOMBIE</h1>
+        
+        <!--<div class="bouton">
+            <a href="#" class="myButton" id="jouer" onclick="init()">JOUER AU JEU VIDEAL</a>  <br>  <br>  <br>      
+            <a href="#" class="myButtonop ">Options</a>        
+        </div>-->
+               <canvas id="gameBoard"></canvas>
+              
+        
+       
+        <div id=elem>
+            <img id="bowser" src="./assets/bowser.png" width="50" height="50">
+            <img id="goomba" src="./assets/goomba.png" width="50" height="50">
+            <img id="skelerex" src="./assets/skelerex.png" width="50" height="50">
+            <img id="kamek" src="./assets/kamek.png" width="50" height="50">
+            <img id="bowserJr" src="./assets/bowserJr.png" width="50" height="50">
+        
+            <img id="mario" src="./assets/mario.png" width="49" height="49">
+            <img id="luigi" src="./assets/luigi.png" width="49" height="49">
+            <img id="peach" src="./assets/peach.jpg" width="49" height="49">
+            <img id="daisy" src="./assets/daisy.png" width="49" height="49">
+            <img id="yoshi" src="./assets/yoshi.png" width="49" height="49">
+            <img id="toad" src="./assets/toad.jpg" width="49" height="49">
+            <img id="donkeykong" src="./assets/coeur.jpg" width="49" height="49">
+            <img id="carapace" src="./assets/carapace.PNG" width="49" height="49">
+            <!--<img id="CB" src="./assets/carapaceBleu2.png" width="49" height="49">-->
+            <img id="c1" src="./assets/c1.PNG" width="49" height="49">
+            <img id="c2" src="./assets/c2.PNG" width="49" height="49">
+            <img id="c3" src="./assets/c3.PNG" width="49" height="49">
+            <img id="c4" src="./assets/c4.PNG" width="49" height="49">
+            <img id="c5" src="./assets/c5.PNG" width="49" height="49">
+            <img id="c6" src="./assets/c6.PNG" width="49" height="49">
+            <img id="c7" src="./assets/c7.PNG" width="49" height="49">
+        
+        <img id="g1" src="./assets/goomba1.PNG" width="49" height="49">
+        <img id="g2" src="./assets/goomba2.PNG" width="49" height="49">
+        <img id="g3" src="./assets/goomba3.PNG" width="49" height="49">
+
+        <img id="b1" src="./assets/bowser1.PNG" width="49" height="49">
+        <img id="b2" src="./assets/bowser2.PNG" width="49" height="49">
+        <img id="b3" src="./assets/bowser3.PNG" width="49" height="49">
+
+        <img id="s1" src="./assets/s1.PNG" width="49" height="49">
+        <img id="s2" src="./assets/s2.PNG" width="49" height="49">
+        <img id="s3" src="./assets/s3.PNG" width="49" height="49">
+
+
+        <div id="demo">
+            <p id="piece"></p>
+        </div>
+        <p id="sun"></p>
+        <p id="chomp"></p>
+        <p id="carapaceBleu"></p>
+        <audio id="bowserSound" src="./assets/lostLife.mp3" preload="auto"> </audio>
+        <audio id="10%" src="./assets/10%25.mp3" preload="auto"> </audio>
+        <audio id="150%" src="./assets/150%25.mp3" preload="auto"> </audio>
+        <audio id="echo" src="./assets/echo.mp3" preload="auto"> </audio>
+        <audio id="echo2" src="./assets/echo2.mp3" preload="auto"> </audio>
+        <audio id="oowecho" src="./assets/oowecho.mp3" preload="auto"> </audio>
+        <audio id="owwo" src="./assets/owwo.mp3" preload="auto"> </audio>
+        <audio id="woow" src="./assets/woow.mp3" preload="auto"> </audio>
+        <audio id="woowecho" src="./assets/woowecho.mp3" preload="auto"> </audio>
+        <audio id="trumpet" src="./assets/skull-trumpet.mp3" preload="auto"> </audio>
+        <audio id="tkt" src="./assets/tkt.mp3" preload="auto"></audio>
+    </div>
+</body>
+
+</html>
