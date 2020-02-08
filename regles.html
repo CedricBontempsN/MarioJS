@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<title>Mario vs Méchant</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<style>
+    body,
+    h1 {
+        font-family: "Raleway", sans-serif;
+    }
+    
+    body,
+    html {
+        height: 100%
+    }
+    
+    form,
+    p {
+        font-family: "Raleway", sans-serif;
+        font-size: 1.5em
+    }
+    
+    .bgimg {
+        background-color: darkgray
+    }
+    
+    .bgimg2 {
+        background-image: url('./fond2.png');
+        min-height: 100%;
+        background-position: center;
+        background-size: cover;
+    }
+</style>
+
+<body>
+
+    <div class="bgimg2 w3-display-container w3-animate-opacity w3-text-black">
+        <div class="w3-display-topmiddle">
+            <h1 class="w3-jumbo w3-animate-top">Règles</h1>
+        </div>
+
+        <div class="bgimg w3-display-middle w3-animate-opacity w3-text-white">
+            <p>
+                Les règles du petit jeu sont à peu près similaires à un Tower Défense : <br/> Le but est de réussir à battre les vagues d’ennemis se dirigeant vers les bébés de l’univers de Mario. <br/> Pour cela, vous serez aidé par des tourelles
+                qui vous aideront à combattre les vagues d’ennemis (de l’univers de Mario aussi). Il vous faudra donc sélectionner les tourelles alliées pour les placer sur une grille
+                qui sera votre grille de jeu. Pour cela, il vous suffira de cliquer sur la tourelle, puis de cliquer sur la case inoccupée sur laquelle vous souhaitez placer la tourelle.<br/> Il y aura un score indiquant le nombre d’ennemis battu qui
+                sera mis à jour en direct en fonction de comment vous vous en sortez.<br/> Pour poser des alliés il faut une certaines quantitée d'énergie, que l'on regagne avec le temps ou en tuant des ennemis.<br/> Bon jeu et bonne chance !
+            </p>
+        </div>
+        <div class="w3-display-bottomright w3-padding-large">
+            <form action="index.html">
+                <input type="submit" value="Accueil" class="w3-input w3-button">
+            </form>
+        </div>
+        <div class="w3-display-bottomleft w3-padding-large">
+            <form action="mario.html">
+                <input type="submit" value="Jouer" class="w3-input w3-button">
+            </form>
+        </div>
+
+    </div>
+</body>
