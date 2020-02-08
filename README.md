@@ -1,5 +1,5 @@
 # MarioJS
-Projet javascript utilisation canvas
+Projet perso en javascript avec utilisation canvas
 
 
 ## Idée du projet : 
